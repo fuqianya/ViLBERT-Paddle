@@ -82,12 +82,12 @@ Change `gradient_accumulation_steps` to adapt your GPU memory.
 
 
 ```bash
-python eval.py --from_pretrained ./checkpoints/refcoco+_bert_base_6layer_6conect-pretrained/paddle_model_19.pdparams
+python eval.py --from_pretrained ./checkpoints/refcoco+_bert_base_6layer_6conect-pretrained/paddle_model_13.pdparams
 ```
 
 ### 使用预训练模型进行预测
 
-模型下载: [谷歌云盘](https://drive.google.com/file/d/12zjPYsmNK8AjCRYvT1cdU-8K36TmUn5C/view?usp=sharing)
+模型下载: [谷歌云盘](https://drive.google.com/file/d/1DYaGnMq4evcsiFp0-N3ZwlWL7HpbfkCD/view?usp=sharing)
 
 将下载的模型权重以及训练信息放到`checkpoints/refcoco+_bert_base_6layer_6conect-pretrained`目录下, 运行`step5`的指令进行测试。
 
@@ -125,4 +125,4 @@ python eval.py --from_pretrained ./checkpoints/refcoco+_bert_base_6layer_6conect
 | 框架版本 | Paddle 2.1.0 |
 | 应用场景 | 多模态 |
 | 支持硬件 | GPU、CPU |
-| 下载链接 | [预训练模型](https://drive.google.com/file/d/12zjPYsmNK8AjCRYvT1cdU-8K36TmUn5C/view?usp=sharing) \| [训练日志](https://drive.google.com/file/d/1IEDxQsqk6RdTM9CaMAdQBGaTOQnLGN-0/view?usp=sharing)  |
+| 下载链接 | [预训练模型](https://drive.google.com/file/d/1DYaGnMq4evcsiFp0-N3ZwlWL7HpbfkCD/view?usp=sharing) \| [训练日志](https://drive.google.com/file/d/1IEDxQsqk6RdTM9CaMAdQBGaTOQnLGN-0/view?usp=sharing)  |
