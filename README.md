@@ -87,7 +87,7 @@ python eval.py --from_pretrained ./checkpoints/refcoco+_bert_base_6layer_6conect
 
 ### 使用预训练模型进行预测
 
-模型下载: [谷歌云盘](https://drive.google.com/file/d/1DYaGnMq4evcsiFp0-N3ZwlWL7HpbfkCD/view?usp=sharing)
+模型下载: [谷歌云盘](https://drive.google.com/file/d/19gbGuVm9hgVPm_XzAUrTpeDmObr5ZAv3/view?usp=sharing)
 
 将下载的模型权重以及训练信息放到`checkpoints/refcoco+_bert_base_6layer_6conect-pretrained`目录下, 运行`step5`的指令进行测试。
 
@@ -125,4 +125,4 @@ python eval.py --from_pretrained ./checkpoints/refcoco+_bert_base_6layer_6conect
 | 框架版本 | Paddle 2.1.0 |
 | 应用场景 | 多模态 |
 | 支持硬件 | GPU、CPU |
-| 下载链接 | [预训练模型](https://drive.google.com/file/d/1DYaGnMq4evcsiFp0-N3ZwlWL7HpbfkCD/view?usp=sharing) \| [训练日志](https://drive.google.com/file/d/1hwXfZUy3V2YnsBKQkQADvACTyXYqvLFa/view?usp=sharing)  |
+| 下载链接 | [预训练模型](https://drive.google.com/file/d/19gbGuVm9hgVPm_XzAUrTpeDmObr5ZAv3/view?usp=sharing) \| [训练日志](https://drive.google.com/file/d/1hwXfZUy3V2YnsBKQkQADvACTyXYqvLFa/view?usp=sharing)  |
