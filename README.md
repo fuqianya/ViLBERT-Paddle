@@ -6,7 +6,7 @@
 
 本项目使用[paddle](https://github.com/PaddlePaddle/Paddle)框架复现[ViLBERT](https://arxiv.org/abs/1908.02265)模型。该模型包含两个并行的流，分别用于编码visual和language，并且加入了 co-attention transformer layer 来增强两者之间的交互，得到 pretrained model。作者在多个 vision-language 任务上得到了多个点的提升。
 
-**注: AI Studio项目地址: [https://aistudio.baidu.com/aistudio/projectdetail/2303091](https://aistudio.baidu.com/aistudio/projectdetail/2303091).**
+**注: AI Studio项目地址: [https://aistudio.baidu.com/aistudio/projectdetail/2609611](https://aistudio.baidu.com/aistudio/projectdetail/2609611).**
 
 **您可以使用[AI Studio](https://aistudio.baidu.com/)平台在线运行该项目!**
 
